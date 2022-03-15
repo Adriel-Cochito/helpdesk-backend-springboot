@@ -1,4 +1,4 @@
-package com.adriel.helpdesk.controller;
+package com.adriel.helpdesk.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,7 @@ import com.adriel.helpdesk.service.TecnicoService;
 
 @RestController
 @RequestMapping(value="/tecnicos")
-public class TecnicoController {
+public class TecnicoResource {
 
 	@Autowired
 	private TecnicoService service;
